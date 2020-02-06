@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Primask - Landing Page</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" id="logo"></a>
+      <nav>
+        <ul class="nav_links">
+          <li class="panner">
+            <img src="img/accueil1/pictoPanner.png" alt="panner" />
+          </li>
+          <li>
+            <img class="logo" src="img/accueiL1/logo.svg" alt="logo" />
+          </li>
+          <li class="menuburger">
+            <img src="img/accueiL1/pictoMenu.svg" alt="menuburger" />
+          </li>
+          <li class="li_home">
+            <p>Accueil</p>
+          </li>
+          <li class="li_about">
+            <p>A propos</p>
+          </li>
+          <li class="li_shop">
+            <p>Boutique</p>
+          </li>
+          <li class="li_contact">
+            <p>Contact</p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="showcase">
+        <div class="showcase__text">
+          <p class="title">
+            Masques <span>Primask</span><br />
+            de haute qualité
+          </p>
+          <p class="subtitle">LA RÉVOLUTION TEXTILE</p>
+          <p class="paragraph">
+            Filtrants et écologiques, nos masques sauront vous garantir un
+            <br />
+            confort optimale tout en restant tendance.
+          </p>
+
+          <div class="cta">
+            <div class="buttonPrimaryColor">
+              <p>
+                <a href="#">Découvrir</a>
+              </p>
+            </div>
+            <div class="buttonLightColor">
+              <p>
+                <a href="#">En savoir plus</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="slideshow">
+          <img
+            src="img/accueiL1/couple2.png"
+            alt="Slideshow Image 1"
+            class="active"
+          />
+          <img src="img/accueiL1/couple3.png" alt="Slideshow Image 2" />
+          <img src="img/accueiL1/couple4.png" alt="Slideshow Image 3" />
+        </div>
+        <!--<img class="couple" src="img/accueiL1/couple1.png" alt="couple" />-->
+      </section>
+      <section class="what_primask"></section>
+      <section class="technology"></section>
+      <section class="tissue"></section>
+      <section class="personnalisation"></section>
+      <section class="buy"></section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="src/jquery-1.2.6.min.js"></script>
+
+    <script type="text/javascript">
+      /*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+
+      function slideSwitch() {
+        var $active = $("#slideshow IMG.active");
+
+        if ($active.length == 0) $active = $("#slideshow IMG:last");
+
+        // use this to pull the images in the order they appear in the markup
+        var $next = $active.next().length
+          ? $active.next()
+          : $("#slideshow IMG:first");
+
+        // uncomment the 3 lines below to pull the images in random order
+
+        // var $sibs  = $active.siblings();
+        // var rndNum = Math.floor(Math.random() * $sibs.length );
+        // var $next  = $( $sibs[ rndNum ] );
+
+        $active.addClass("last-active");
+
+        $next
+          .css({ opacity: 0.0 })
+          .addClass("active")
+          .animate({ opacity: 1.0 }, 1000, function() {
+            $active.removeClass("active last-active");
+          });
+      }
+
+      $(function() {
+        setInterval("slideSwitch()", 5000);
+      });
+    </script>
+    <!--script type="text/javascript " src="src/script.js"></script>-->
+  </body>
+</html>
