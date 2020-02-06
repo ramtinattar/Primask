@@ -1,0 +1,1286 @@
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../font/Montserrat/Montserrat-Regular.ttf")  format("truetype") ;
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../font/Montserrat/Montserrat-Bold.ttf")  format("truetype") ;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("../font/Montserrat-Alternates/MontserratAlternates-Bold.ttf") format("truetype") ;
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      overflow-x: hidden;
+  }
+
+/* partie 1 oliwia */
+
+.nav_links {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_links li {
+    display: inline;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.pictoPanner {
+    width: 17px;
+    height: 17px;
+    margin-right: 16px;
+}
+.logo {
+    width: 101px;
+    height: 15px;
+}
+.pictoMenu {
+    margin-left: 16px;
+}
+.box1 {
+    height: 509px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.h_principale {
+    margin-top: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 38px;
+    text-align: center;
+    color: #101010;
+}
+.h4_principale {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #101010;
+    margin-top: 13px;
+}
+.p_principale {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #4B4B4B;
+    margin-top: 11px;
+}
+.button1 {
+    width: 113px;
+    height: 31.81px;
+    background: #6CCDA9;
+    border-radius: 20px;
+    line-height: 31.81px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+}
+.button2 {
+    width: 113px;
+    height: 31.81px;
+    border-radius: 20px;
+    border: 1px solid #6CCDA9;
+    line-height: 31.81px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 134px;
+    margin-top: -31.81px;
+}
+.button_principal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 252px;
+    height: 50px;
+}
+.couple {
+    width: 320px;
+    height: 297px;
+    margin-top: -21px;
+}
+#acceuil,
+#a_propos,
+#boutique,
+#contact {
+    display: none;
+}
+
+/* partie 2 Ramtin */
+
+.box2 {
+    height: 510px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main_h {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+.greentext {
+    color: #6CCDA9;
+}
+.picto_textile {
+    width: 56px;
+    height: 56px;
+    margin-top: 43px;
+}
+.sub_h_1 {
+    color: #6CCDA9;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 14px;
+}
+.picto_France {
+    height: 59px;
+    margin-top: 51px;
+}
+.sub_h_2 {
+    color: #6CCDA9;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 14px;
+}
+.picto_fibre {
+    margin-top: 51px;
+    height: 59px;
+}
+.sub_h_3 {
+    color: #6CCDA9;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 15.3px;
+}
+
+/* partie 3 Ramtin */
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    height: 627px;
+    background: #FFFFFF;
+}
+.sub_h_4 {
+    margin-top: 41px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+
+}
+.sub_h_5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 15px;
+
+}
+.bc_picto_wrapper {
+    position: relative;
+    background: url("../img/technology3/degradeVirus.png") center center no-repeat;
+    width: 74px;
+    height: 85px;
+    background-size: 74px 85px;
+}
+.picto_virus {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 49.73px;
+    height: 47.81px;
+}
+.sub_h_5 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.sub_h_6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+.sub_h_6 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.bc_picto_allegie {
+    position: relative;
+    background: url("../img/technology3/degradeAllergy.png") center center no-repeat;
+    width: 88px;
+    height: 91px;
+    background-size: 88px 91px;
+}
+.picto_allegie {
+    position: absolute;
+    width: 63.6px;
+    height: 74.47px;
+}
+.sub_h_7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 15px;
+}
+.sub_h_7 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.bc_picto_usine {
+    position: relative;
+    background: url("../img/technology3/degradeUsine.png") center center no-repeat;
+    width: 88px;
+    height: 91px;
+    background-size: 88px 91px;
+}
+.picto_usine {
+    position: absolute;
+    width: 33.55px;
+    height: 42.53px;
+    margin-top: 30px;
+}
+.sub_h_8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+.sub_h_8 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.bc_picto_pollution {
+    position: relative;
+    background: url("../img/technology3/degradePollution.png") center center no-repeat;
+    width: 135px;
+    height: 65px;
+    background-size: 135px 65px;
+}
+.picto_pollution {
+    position: absolute;
+    height: 63px;
+}
+.what_is_primask_para,
+.ecology_Circle,
+.br_1,
+.sub_p_1,
+.sub_p_2,
+.sub_p_3,
+.mask_tech {
+    display: none;
+}
+
+/* partie 4 Laurent */
+.box4 {
+    height: 605px;
+    background: black;
+    position: absolute;
+    width: 100vw;
+}
+
+.sub_h_9 {
+    position: relative;
+    top: 45px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sub_p_9 {
+    position: relative;
+    top: 45px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.82);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    top: 55px;
+}
+.div_character {
+    width: 260px;
+    height: 240px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    top: 90px;
+    right: 30px;
+}
+.character {
+    width: 260px;
+    height: 240px;
+}
+.white_box {
+    width: 272px;
+    height: 196px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    top: 55px;
+}
+.matieres {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    width: 54px;
+    height: 15px;
+}
+.matieres_rectangle {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    top: 15px;
+    left: 6px;
+}
+.rectangle_box {
+    position: absolute;
+    width: 205px;
+    height: 0px;
+    left: 61px;
+    top: 8px;
+    border: 1px solid black;
+}
+.matieres_1 {
+    width: 30px;
+    height: 30px;
+    margin-top: 7.41px;
+    margin-left: 13px;
+}
+.matieres_2,
+.matieres_3,
+.matieres_4,
+.matieres_5,
+.matieres_6 {
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+}
+.couleurs {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    width: 54px;
+    height: 15px;
+}
+.couleurs_rectangle {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    top: 25px;
+    left: 6px;
+}
+.couleurs_1 {
+    width: 30px;
+    height: 30px;
+    margin-top: 7.41px;
+    margin-left: 13px;
+}
+.couleurs_2,
+.couleurs_3,
+.couleurs_4,
+.couleurs_5,
+.couleurs_6 {
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+}
+.button3 {
+    width: 113px;
+    height: 31.81px;
+    background: #6CCDA9;
+    border-radius: 20px;
+    line-height: 31.81px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 37px;
+    margin-left: 71px;
+    text-align: center;
+}
+.bulles,
+.ou,
+.coleurs_2,
+.matieres_22,
+.valider {
+    display: none;
+}
+
+/* PARTIE 5 OUSMANE */
+
+.box5 {
+    height: 348px;
+    margin-top: 605px;
+}
+
+.sub_h_10 {
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sub_p_10 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+} 
+.div_cash6 {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 260px;
+    height: 200px;
+    top: 50px;
+    left: 10px;
+}
+.commander {
+    width: 108px;
+    height: 29px;
+    font-size: 16px;
+    background: #6CCDA9;
+    border-radius: 20px;
+    line-height: 29px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+}
+.div_commander {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 108px;
+    height: 49px;
+    top: 30px;
+}
+.euro {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sub_p_11 {
+    display: none;
+}
+
+/* FOOTER */
+
+.box6 {
+    height: 64px;
+    background-color: #6CCDA9;
+    
+}
+.box7 {
+    border: 1px solid #6CCDA9;
+    width: 320px;
+    height: 64px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.information {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.contacter {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 170px;
+    margin-top: -52px;
+}
+.journal {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+.faq {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.ressources {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.mail {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 170px;
+    margin-top: 4px;
+}
+.number {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 170px;
+    margin-top: 5px;
+}
+.facebook {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 170px;
+    margin-top: 5px;
+}   
+
+
+@media (min-width: 1024px) {
+
+    /* partie 1 oliwia ORDI */
+
+    .boxes0 {
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        left: 300px;
+        width: 400px;
+        height: 500px;
+    }
+    .box1 {
+        height: 600px;
+    }
+    .div_couple {
+        position: absolute;
+        width: 600px;
+        height: 630px;
+    }
+    .couple {
+        width: 600px;
+        height: 700px;
+        margin-top: -100px;
+    }
+    .h_principale {
+        text-align: left;
+        margin-top: 50px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .h4_principale {
+        font-size: 20px;
+        margin-right: 100px;
+        text-align: left;
+    }
+    .p_principale {
+        text-align: left;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .button_principal {
+        width: 400px;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .button1 {
+        width: 160px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 16px;
+    }
+    .button2 {
+        width: 160px;
+        height: 44px;
+        margin-top: -44px;
+        margin-left: 200px;
+        line-height: 44px;
+        font-size: 16px;
+    }
+    .pictoMenu {
+        display: none;
+    }
+    #acceuil,
+    #a_propos,
+    #boutique,
+    #contact {
+        display: block;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .pictoPanner {
+        width: 41px;
+        height: 41px;
+        margin-right: 50px;
+        margin-top: 5px;
+    }
+    .logo {
+        width: 218px;
+        height: 23px;
+        margin-top: 12px;
+        margin-left: -57px;
+    }
+
+    /* partie 2 Ramtin ORDI */
+
+    .boxes {
+        position: relative;
+        border: 9px solid;
+        height: 500px;
+        max-width: 1000px;
+        margin: 0 auto;
+        top: 70px;
+        background: url("../img/description2/ecologyCircle2.svg") center bottom no-repeat
+        
+    }
+    .box2 {
+        height: 700px;
+        padding: 30px;
+        display: block;
+        position: relative;
+        background: #000000;
+        background-size: 600px auto;
+    }
+    .rectangle {
+        position: absolute;
+        width: 1px;
+        height: 65px;
+        margin-left: 79.59px;
+        background-color: white;
+        margin-top: -10px;
+    }
+    .main_h {
+        text-align: left;
+        margin-left: 106.65px;
+        margin-top: 10px;
+        font-size: 41px;
+
+    }
+    .what_is_primask_para {
+        color: white;
+        display: block;
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 22px;
+        position: absolute;
+        margin-left: 105px;
+    }
+    .ecology_Circle {
+        display: inline;
+        margin-top: -250px;
+    }
+    .picto_textile {
+        position: relative;
+        top: 40px;
+        left: 10px;
+        width: 53px;
+        height: 53px;
+    }
+    .picto_France {
+        height: 55px;
+        position: relative;
+        right: 210px;
+        top: 105px;
+    }
+    .picto_fibre {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        right: 130px;
+        top: 100px;
+    }
+    .sub_h_1 {
+        width: 311.4px;
+        text-align: left;
+        margin-top: -15px;
+        margin-left: 420px;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        height: 95px;
+        
+    }
+    .sub_h_2 {
+        width: 311.4px;
+        text-align: left;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        height: 95px;
+        margin-top: 45px;
+    }
+    .sub_h_3 {
+        width: 250px;
+        text-align: left;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        height: 95px;
+        margin-left: 100px;
+        margin-top: 35px;
+
+    }
+    .sub_p_1 {
+        display: block;
+        color: white;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 420px;
+        text-align: left;
+        margin-top: -20px;
+        width: 300px;
+        height: 117px;
+    }
+    .sub_p_2 {
+        display: block;
+        color: white;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: -20px;
+    }
+    .sub_p_3 {
+        display: block;
+        color: white;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    .box.bottom_left {
+        position: absolute;
+        left: 30px;
+        margin-top: 120px;
+    }
+    .box.bottom_right {
+        position: absolute;
+        right: 30px;
+        margin-top: 120px;
+    }
+    .box.top_center{
+        position: absolute;
+        margin-left: -45px;
+        margin-top: -50px;
+    }
+
+    /* partie 3 Ramtin ORDI */
+
+    .boxes2 {
+        position: relative;
+        height: 700px;
+        width: 900px;
+        max-width: 1000px;
+        margin: 0 auto;
+        top: -200px;
+        background: url("../img/technology3/Mask3.png") center bottom no-repeat
+    }
+    .box3 {
+        height: 800px;
+    }
+    .rectangle2 {
+        position: absolute;
+        width: 1px;
+        height: 85px;
+        background-color: black;
+        margin-left: 109.59px;
+        margin-top: 50px;
+    }
+    .sub_h_4 {
+        text-align: left;
+        margin-left: 139.59px;
+        margin-top: 50px;
+        font-size: 41px;
+        line-height: 43px;
+    }
+    .sub_h_5 {
+        width: 300px;
+        height: 200px;
+        margin-top: 230px;
+        margin-left: 50px;
+    }
+    .bc_picto_wrapper {
+        bottom: 40px;
+    }
+    .bc_picto_wrapper_h3 {
+        position: absolute;
+        margin-top: 50px;
+        width: 160px;
+    }
+    .sub_h_6 {
+        width: 300px;
+        height: 200px;
+        margin-left: 630px;
+        margin-top: -250px;
+    }
+    .bc_picto_allegie {
+        left: 140px;
+    }
+    .bc_picto_allegie_h3 {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 140px;
+    }
+    .sub_h_7 {
+        width: 300px;
+        height: 200px;
+        margin-left: -20px;
+        margin-top: 180px;
+    }
+    .bc_picto_usine {
+        left: 60px;
+    }
+    .bc_picto_usine_h3 {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    .sub_h_8 {
+        width: 300px;
+        height: 200px;
+        margin-left: 600px;
+        margin-top: -250px;
+    }
+    .bc_picto_pollution {
+        left: 140px;
+    }
+    .bc_picto_pollution_h3 {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+
+    /* partie 4 laurent ORDI */
+
+    .white_box {
+        display: none;
+    }
+    .box4 {
+        height: 805px;
+        position: relative;
+    }
+    .sub_h_9 {
+        position: absolute;
+        margin-left: 80px;
+        width: 501px;
+        height: 77.25px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 41.89px;
+        line-height: 51px;
+        margin-top: 30px;
+    }
+    .rectangle3 {
+        position: absolute;
+        width: 1px;
+        height: 65px;
+        margin-left: 79.59px;
+        margin-top: 68px;
+        background-color: white;
+    }
+    .sub_p_9 {
+        color: rgba(255, 255, 255, 0.82);
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 105px;
+        text-align: left;
+    }
+    .bulles {
+        display: block;
+        margin-top: -300px;
+        width: 724.07px;
+        height: 1100px;
+        float: right;
+    }
+    .div_character {
+        float: right;
+        margin-top: 102px;
+        position: absolute;
+        width: 638.12px;
+        height: 613px;
+    }
+    .character {
+        width: 538.12px;
+        height: 613px;
+        margin-left: 130px;
+
+    }
+    .matieres_22 {
+        width: 194.55px;
+        height: 193px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        position: relative;
+        max-width: 1000px;
+        top: 400px;
+        left: 79.59px;
+        display: block;
+    }
+    .matieres_2_h {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25.888px;
+        line-height: 32px;
+        text-align: center;
+        width: 54px;
+        height: 15px;
+        border: 4px solid white;
+        margin-left: 35px;
+    }
+    .coleurs_2 {
+        width: 194.55px;
+        height: 193px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        position: relative;
+        max-width: 1000px;
+        top: 207px;
+        left: 400px;
+        display: block;
+    }
+    .coleurs_2_h {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25.888px;
+        line-height: 32px;
+        text-align: center;
+        width: 54px;
+        height: 15px;
+        border: 4px solid white;
+        margin-left: 35px;
+    }
+    .ou {
+        color: white;
+        font-family: "Montserrat";
+        display: block;
+        position: absolute;
+        margin-left: 325px;
+        margin-top: 100px;
+    }
+    .elipse_material_1 {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .elipse_material_2 {
+        margin-left: 4px;
+    }
+    .elipse_material_3 {
+        margin-left: 4px;
+
+    }
+    .elipse_material_4 {
+        margin-left: 30px;
+        margin-top: 12px;
+    }
+    .elipse_material_5 {
+        margin-left: 4px;
+
+    }
+    .elipse_material_6 {
+        margin-left: 4px;
+    }
+    .couleurs_1 {
+        width: 41px;
+        height: 41px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .couleurs_2 {
+        width: 41px;
+        height: 41px;
+    }
+    .couleurs_3 {
+        width: 41px;
+        height: 41px;
+    }
+    .couleurs_4 {
+        width: 41px;
+        height: 41px;
+        margin-left: 30px;
+        margin-top: 12px;
+    }
+    .couleurs_5 {
+        width: 41px;
+        height: 41px;
+    }
+    .couleurs_6 {
+        width: 41px;
+        height: 41px;
+    }
+    .valider {
+        display: block;
+        width: 212px;
+        height: 50px;
+        font-size: 16px;
+        background: #6CCDA9;
+        border-radius: 20px;
+        line-height: 50px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 220px;
+        margin-top: 250px;
+        text-align: center;
+        border: none;
+    }
+
+/* PARTIE 5 OUSMANE ORDI */
+
+    .box5 {
+        margin-top: 0;
+        height: 580px;
+    }
+    .sub_h_10 {
+        width: 501px;
+        height: 77.25px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 41.89px;
+        line-height: 51px;
+        margin-top: 30px;
+        margin-left: -70px;
+    }
+    .rectangle4 {
+        position: absolute;
+        width: 1px;
+        height: 65px;
+        margin-left: 79.59px;
+        margin-top: 20px;
+        background-color: black;
+    }
+    .cash6 {
+        width: 407px;
+        height: 400px;
+        margin-left: -300px;
+    }
+    .dernier {
+        position: relative;
+        height: 500px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .euro {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 41.89px;
+        margin-top: -150px;
+        margin-left: 200px;
+
+    }
+    .sub_p_10 {
+        margin-left: 560px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 640px;
+    }
+    .sub_p_11 {
+        display: block;
+        position: absolute;
+        margin-left: 640px;
+        margin-top: 170px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .commander {
+        width: 212px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 20px;
+        line-height: 50px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        border: none;
+        margin-left: 190px;
+        margin-top: 150px;
+    }
+
+    /* footer ordi */
+
+    .box6 {
+        height: 200px;
+    }
+    .box7 {
+        height: 200px;
+        width: 1024px;
+        border: 5px solid #6CCDA9;
+    }
+    .information {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25.888px;
+        line-height: 32px;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .contacter {
+        
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25.888px;
+        line-height: 32px;
+        margin-top: -140px;
+        margin-left: 500px;
+    }
+    .journal {
+        font-size: 25.888px;
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+    .faq {
+        font-size: 25.888px;
+        margin-top: 30px;
+        margin-left: 130px;
+    }
+    .ressources {
+        font-size: 25.888px;
+        margin-top: 30px;
+        margin-left: 130px;
+    }
+    .mail {
+        font-size: 25.888px;
+        margin-left: 500px;
+        margin-top: 20px;
+    }
+    .number {
+        font-size: 25.888px;
+        margin-left: 500px;
+        margin-top: 30px;
+    }
+    .facebook {
+        font-size: 25.888px;
+        margin-left: 500px;
+        margin-top: 30px;
+    }
+
+}
