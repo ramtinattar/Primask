@@ -14,7 +14,7 @@ La problématique : Dans une démarche de consommation éco-responsable,<br/>
 Intervenants : Laurent Dosnon (UX Designer)<br/>
                Bastien Calou (Développeur Front-end)<br/>
          
-Le site :  primask-landing-page.netlify.com <br/>
+Le site :  https://primask-landing-page.netlify.com/ <br/>
 
 Le figma :   https://www.figma.com/file/YLHjPsL4cuNp2HIlhkZxEn/PROJET-MASQUE?node-id=0%3A1 <br/>
 
